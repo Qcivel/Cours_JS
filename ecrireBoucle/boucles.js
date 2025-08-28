@@ -16,10 +16,9 @@ for(let i = 0 ; i < 50 ; i++) {
 // A
 // B
 console.log("Exercice 2");
-for (let i = 0 ; i <10 ; i++) {
+for (let i = 0 ; i <5 ; i++) {
         console.log("A");
         console.log("B");
-    
 }
 
 // Exercice 3 : écrire dans la console :
@@ -43,7 +42,7 @@ for (let i = 0 ; i <10 ; i++) {
 // B
 console.log("Exercice 3");
 for (let i = 0 ; i <3 ; i++){
-    for (let j = 0 ; j <5 ; j++) {
+    for (let j = 0 ; j < 5 ; j++) {
         console.log("A");
         }
     console.log("B");
@@ -61,9 +60,9 @@ for (let i = 0 ; i <3 ; i++){
 // 8
 // 9
 console.log("Exercice 4");
-number=-1
+
 for (let i = 0 ; i < 10 ; i++){
-    console.log(number+=1)
+    console.log(i)
 }
     
 
@@ -80,10 +79,11 @@ for (let i = 0 ; i < 10 ; i++){
 // 11
 // 12
 console.log("Exercice 5");
-number=2
+let number=2
 for (let i = 0 ; i < 10 ; i++){
     console.log(number+=1)
 }
+
 // Exerice 6 : écrire dans la console :
 // 0
 // 1
@@ -96,16 +96,23 @@ for (let i = 0 ; i < 10 ; i++){
 // 0
 // 1
 console.log("Exercice 6");
-
-number=0
-number1=1
+/*
 for (let i = 0 ; i <2 ; i++){
-    console.log(0);
-    for (let j = 0 ; j <3 ; j++) {
-        console.log(number+=1);
+    for (let j = 0 ; j <2 ; j++){
+        console.log(0);
+        for (let k = 0 ; k <3 ; k++) {
+            console.log(j+=1);
+            }
         }
-        
-    }
+}
+console.log(0);
+console.log(1);
+*/
+
+for (let i = 0 ; i <10 ; i++){
+        console.log(i%4);
+}
+
 
 // Exercice 7 : écrire dans la console :
 // 0
@@ -119,7 +126,24 @@ for (let i = 0 ; i <2 ; i++){
 // 8
 // 9
 console.log("Exercice 7");
-// TODO
+/*
+for (let i = 0 ; i <5 ; i++){
+    console.log(i);
+    }
+for (let j = 0 ; j <4 ; j++) {
+    console.log("A");
+    }
+console.log("8");
+console.log("9");
+*/
+for (let i = 0 ; i <10 ; i++){
+    if ( i>4 && i<8){ // i est compris entre 4 et 8
+        console.log("A");
+    } else {
+        console.log(i);
+    }
+}
+
 
 // Exercice 8 : écrire dans la console :
 // 100
@@ -133,7 +157,16 @@ console.log("Exercice 7");
 // 8
 // 109
 console.log("Exercice 8");
-// TODO
+
+
+for (let i = 0 ; i < 10  ; i++) {
+    if (i%3==0){
+        console.log(i+100)
+    }
+    else{
+        console.log(i)
+    }
+}
 
 // Exercice 9 : écrire dans la console :
 // 0
@@ -147,7 +180,18 @@ console.log("Exercice 8");
 // 208
 // 9
 console.log("Exercice 9");
-// TODO
+for (let i = 0 ; i < 10  ; i++) {
+    if (i%3==0){
+        console.log(i)
+    }
+    else if (i%3==1) {
+        console.log(i+100)
+    }
+    else if (i%3==2) {
+        console.log(i+200)
+    }
+}
+
 
 // Exercice 10 : écrire dans la console tous les résultats possibles de lancers de deux dés :
 // 1 1
@@ -158,7 +202,12 @@ console.log("Exercice 9");
 // 6 5
 // 6 6
 console.log("Exercice 10");
-// TODO
+
+for (let i = 0 ; i < 7 ; i++) {
+    for ( let  j = 1 ; j < 7 ; j++) {
+    console.log (i,j);
+    }
+}
 
 // Exercice 11 : adapter l'exercice précédent pour enlever les doublons (on ne veut pas afficher 1 2 et 2 1, mais seulement l'un des deux).
 console.log("Exercice 11");
