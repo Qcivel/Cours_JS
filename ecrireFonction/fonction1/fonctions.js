@@ -42,7 +42,7 @@ function f5 (a,b){
 }
 
 // Utiliser la fonction f5 pour écrire dans la console la somme de 42 et 77.
-f5(42,77)
+f5(42,77);
 
 // Écrire une fonction f6 qui prend en entrée deux nombres et qui retourne la somme de ces deux nombres.
 
@@ -59,30 +59,40 @@ a+= f6 (42,77);
 // Écrire une fonction f7 qui prend deux nombres en entrée et qui retourne le plus grand des deux.
 function f7 (a,b){
     if (a>b){
-        console.log(a)
+        console.log(a);
     } else 
-        console.log(b)
+        console.log(b);
 }
-console.log(f7(8,5));
+f7(8,5);
 
 // Écrire une fonction f8 qui prend trois nombres en entrée et qui retourne le plus grand des trois.
 // (Au moins deux versions possibles : sans utiliser f7, et en utilisant f7).
 
+// function f8 (a,b,c){
+//     if (a>b && a>c){
+//         return(a);
+//     } else if (b>c){
+//         return(b);
+//     } else
+//         return(c);
+// }
+// console.log(f8(24,6,12));
+
 function f8 (a,b,c){
-    if (a>b && a>c){
-        return(a);
-    } else if (b>a && b>c){
-        return(b);
-    } else
-        return(c);
+    if (c>a && c>b){
+       console.log(c);
+    } else 
+        return (f7(a,b));
 }
-console.log(f8(24,6,12));
+f8(72,32,34);
+
+
 
 // Écrire une fonction f9 qui prend un nombre et un mot en entrée, et qui affiche dans la console ce mot ce nombre de fois.
 
 function f9 (a,word){
     for (let i = 0 ; i < a ; i++){
-        console.log(word)
+        console.log(word);
     }
 }
-f9(3,"mot")
+f9(3,"mot");
