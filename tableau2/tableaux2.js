@@ -65,13 +65,34 @@ count = 0;
     }
     return count;
 }
-console.log(egalTab(tab1,12));
+console.log(egalTab(tab1,1));
 
 // Écrire une fonction qui prend en entrée un tableau et un nombre et qui retourne true si le nombre existe dans le tableau, false sinon.
+console.log("*************ex7*************");
 
+
+function trueTab (tableau,n){
+let exist = false 
+
+    for (let i = 0 ; i < tableau.length-1 ; i++){
+        if (tableau[i] == n){
+            exist = true;
+        } 
+    }
+     console.log(exist);
+}
+trueTab(tab1,65);
 // [Bonus] Suite de l'exo : on **sait** que le tableau reçu est trié (on ne le vérifie pas). Comment exploiter cette information pour améliorer la recherche d'un élément ?
 
 // Créer un tableau qui contient [1,2,3,...,7777].
+
+
+    let tabTest = []
+    for (let i = 1 ; i <7777 ; i++){
+        tabTest.push(i);
+    }
+        console.log(tabTest);
+
 
 // Créer un tableau qui contient [10,20,30,...,77770].
 
