@@ -1,0 +1,107 @@
+// Le but de cet exercice est de répondre à quelques questions concernant mes derniers relevés de Smarties®.
+
+// Dans une boîte de Smarties®, il y a des bonbons de 8 couleurs différentes : rose, rouge, orange, jaune, vert, bleu, violet, marron
+// Dans ma première boîte, j'ai eu 3, 6, 7, 3, 6, 2, 2 et 1 bonbons de chaque couleur, respectivement
+// Comment pourrais-je stocker cette information là en js ?
+
+
+
+// Comment pourrais-je stocker toutes les informations du fichier smarties.data ?
+let data = [[3,6,7,3,6,2,2,1],[2,1,12,4,2,3,4,2],[3,4,8,7,4,0,1,3],[3,4,5,4,4,3,5,1],[2,4,6,3,3,2,5,4],[3,1,9,4,3,3,1,5],[2,2,6,5,5,2,1,6],[4,6,7,3,1,1,3,4],[6,4,4,5,1,0,4,5],[3,1,3,3,4,3,4,8],[4,3,6,4,2,3,6,2],[4,7,3,2,5,2,5,1],[1,0,13,6,2,0,5,2],[5,2,1,5,6,3,3,4],[2,4,3,4,7,3,2,4],[8,6,3,2,1,2,1,5],[6,4,3,4,4,0,3,5],[6,8,2,2,4,5,2,1],[3,6,2,5,5,2,3,3],[4,5,4,1,6,4,2,3],[2,6,2,3,4,2,6,4],[3,2,5,8,2,3,4,1],[3,2,3,3,6,5,3,4],[2,1,1,3,4,3,7,8],[2,3,2,5,2,3,6,6],[1,6,6,0,5,4,2,5],[2,2,6,2,3,4,4,6],[4,6,7,2,3,3,3,1],[3,5,0,9,1,6,3,2],[3,2,5,3,3,6,3,4],[4,3,4,0,6,5,4,3],[6,4,4,2,6,2,1,4],[6,2,2,2,5,5,4,3],[2,4,4,2,6,4,3,4],[8,3,8,2,2,4,0,2],[2,3,8,2,3,2,1,8],[3,1,7,2,2,7,4,3],[2,3,7,2,3,5,4,3],[0,5,4,5,6,3,4,2],[1,3,5,1,6,6,4,3],[1,2,7,3,5,0,5,6],[3,2,7,3,6,2,5,1],[2,6,8,2,2,5,3,1],[1,1,9,3,0,7,6,2],[5,3,1,3,6,5,5,1],[3,4,8,4,1,3,1,5],[5,5,2,4,4,3,2,4],[4,6,10,2,3,1,2,1],[2,1,11,2,3,5,4,1],[4,5,1,3,3,6,2,5],[1,4,3,2,6,5,3,5],[3,6,1,4,5,4,5,1],[4,6,0,1,5,6,5,2],[5,7,1,4,4,2,6,0],[3,4,4,2,4,3,5,4],[4,4,2,3,3,5,2,6],[2,5,6,1,4,2,4,5],[6,4,7,1,4,1,4,2],[2,7,10,3,2,0,4,1],[1,5,5,6,4,1,3,4],[5,2,6,1,4,5,1,5],[1,1,11,3,1,3,3,6],[4,4,5,2,3,4,2,5],[5,4,4,4,2,4,4,2],[6,0,3,5,5,2,5,3],[9,3,2,2,4,5,2,1],[6,4,0,7,5,5,1,1],[6,3,1,7,1,9,1,1],[2,6,2,4,4,2,3,6],[2,4,0,4,5,7,4,3],[4,2,3,4,6,7,1,2],[3,7,5,2,0,5,1,6],[2,3,8,4,5,2,3,2],[5,2,9,2,1,1,5,4],[1,5,7,7,4,2,2,1],[4,6,7,3,5,1,2,1],[3,3,6,7,5,3,1,1],[1,5,1,6,3,3,5,5],[1,3,5,4,6,2,4,4],[0,6,1,4,7,1,7,3],[2,5,3,5,2,4,6,2],[7,3,2,0,4,5,5,2],[6,4,0,3,3,6,5,2],[4,9,2,6,2,3,1,2],[3,4,3,6,6,1,4,2],[5,1,3,2,6,5,3,4],[2,6,2,2,5,4,7,1],[5,1,3,2,5,2,6,4],[3,4,7,3,4,2,3,3],[5,4,10,2,3,1,2,1],[1,3,8,6,1,0,7,3],[2,3,8,0,3,2,8,3],[6,3,8,4,2,4,2,3],[2,5,1,3,5,3,7,3],[1,5,8,4,2,1,6,2],[5,3,10,3,1,3,2,2],[5,2,6,3,4,3,4,2],[4,4,5,1,5,4,5,1],[2,6,2,5,1,5,2,6],[4,9,4,5,0,0,0,7],[1,6,4,6,0,2,2,8],[3,6,3,3,2,4,6,2],[5,5,3,2,4,6,2,2],[4,2,4,5,2,5,3,4],[2,3,3,5,3,4,5,4],[3,5,2,7,1,4,4,3],[3,10,5,3,1,4,1,2],[3,2,4,5,1,4,7,3],[3,8,2,3,1,8,1,3],[2,4,5,2,3,7,5,1],[0,1,5,4,4,4,5,6],[4,5,4,3,2,6,3,2],[3,4,2,5,2,6,3,4],[3,7,2,2,2,4,4,5],[0,7,4,1,1,4,5,7],[3,3,5,6,2,2,5,3],[3,3,4,3,6,2,3,6],[6,3,1,4,4,5,4,3],[5,2,1,7,2,2,5,6],[5,3,4,5,2,1,3,5],[7,1,2,7,2,4,5,2],[2,4,3,3,5,2,5,5],[4,3,1,5,2,9,2,4],[3,6,3,6,4,0,1,6],[4,2,2,3,5,3,5,5],[4,3,1,2,4,4,7,4],[7,3,4,2,2,3,3,5],[5,3,3,1,2,5,1,8],[5,4,6,2,5,2,2,3],[5,1,2,7,2,1,5,6],[1,0,2,6,7,2,3,8],[3,2,7,2,4,3,4,4],[2,1,3,7,8,2,2,4],[3,5,4,3,7,1,3,3],[3,4,5,5,1,4,0,7],[4,6,1,3,5,3,3,4],[4,6,1,1,4,3,4,6],[8,2,2,3,4,5,4,1],[5,3,3,2,2,8,0,6],[7,5,2,5,3,2,3,2],[6,1,2,2,4,6,4,4],[4,6,4,5,3,2,4,1],[2,3,6,5,3,4,3,3],[3,5,2,3,4,5,2,3],[5,4,1,6,3,3,4,3],[6,2,4,5,2,2,4,4],[5,3,4,1,2,5,5,4],[3,1,8,4,1,3,4,5],[4,5,6,5,0,4,2,3],[4,4,1,2,3,3,9,3],[3,4,4,2,3,2,6,5],[4,6,3,4,2,2,3,5],[7,1,2,3,4,4,4,4],[3,5,1,9,2,3,3,3],[6,1,4,4,2,3,6,2],[6,1,6,4,3,3,4,2],[7,4,2,4,3,2,3,4],[2,6,2,6,4,3,4,1],[2,5,5,6,2,1,4,4],[6,3,1,3,4,4,5,3],[5,5,3,5,3,2,5,1],[7,1,3,5,4,3,2,4],[5,3,5,9,1,2,1,4],[5,7,1,7,2,4,1,2],[3,5,1,6,7,2,2,3],[1,4,0,2,4,3,7,8],[4,3,2,4,4,2,6,4],[0,5,2,3,7,4,6,2],[5,5,3,1,7,1,3,4],[3,6,1,3,5,1,7,3],[6,2,2,2,3,5,4,4],[3,4,3,3,5,1,7,3],[6,1,3,2,7,3,4,3],[7,2,2,2,4,4,3,5],[7,7,1,2,2,4,3,3]];
+
+// Maintenant que j'ai ces données :
+
+// Combien y a-t-il de Smarties® dans chaque boîte ?
+let tabSmarties = [];
+function smartiesNumber (boites){
+    
+    for (let numBoite = 0 ; numBoite < boites.length ; numBoite++){
+        let saveSmarties = 0 ;
+        for (let boite = 0 ; boite < boites[numBoite].length; boite++){
+            saveSmarties += boites[numBoite][boite];
+        }
+        tabSmarties.push(saveSmarties);
+    }
+    return tabSmarties;
+}
+console.log(smartiesNumber(data));
+
+
+console.log(data[2][3]);
+
+// Quel est le nombre minimum de Smarties® dans une boîte ?
+function minSmarties (tableau){
+    let valMin = tableau[0] ; 
+    for (let i = 0 ; i < tableau.length ; i++){
+        if (tableau[i]< valMin){
+            valMin = tableau [i];
+        }
+    }
+    return valMin ;
+}
+
+console.log(minSmarties(tabSmarties));
+
+// Et le nombre maximum ?
+
+function maxSmarties (tableau){
+    let valMax = tableau[0];
+    for (let i = 0 ; i < tableau.length ; i ++){
+        if (tableau[i]> valMax){
+            valMax = tableau[i];
+        }
+        return valMax ;
+    }
+}
+console.log(maxSmarties(tabSmarties));
+
+// Combien y a-t-il de Smarties® bleus en tout ?
+console.log("Smarties bleu ?")
+function blueSmarties (boites){
+    let saveSmarties = 0 ;
+    for (let numBoite = 0 ; numBoite < boites.length ; numBoite++){
+            //let boite = boites[numBoite];
+            //saveSmarties += boite[5];
+            saveSmarties += boites[numBoite][5];
+    }
+    return saveSmarties;
+}
+
+// let test = [
+//     [1,4,7],
+//     [2,5,8],
+//     [3,6,9]
+// ];
+
+// test[0] -> [1,4,7],
+// test[0][1] -> 4
+
+console.log(blueSmarties(data));
+// Pour chaque couleur, compter le nombre de Smarties® de cette couleur.
+console.log("les couleurs");
+function colorSmarties (boites,boite){
+    let saveSmarties = 0 ;
+
+    for (let numBoite = 0 ; numBoite < boites.length ; numBoite++){
+        saveSmarties += boites[numBoite][boite];
+    }
+    return saveSmarties;
+}
+let colorTab = ["rose", "rouge", "orange", "jaune", "vert", "bleu", "violet", "marron"];
+let numberColorSmarties = [];
+for (let colors = 0 ; colors < 8 ; colors ++){
+    console.log(colorTab[colors]);
+    console.log(colorSmarties(data,colors));
+    numberColorSmarties.push(colorSmarties(data,colors));
+
+}
+
+
+// Quelle est la couleur la plus présente, en tout ?
+console.log("La couleur la plus présente est le Rose");
+// Quel est le nombre maximum de Smarties® d'une seule couleur, dans une boîte ?
+
+// Dans combien de boîtes y' a-t-il 3 Smarties® bleues ?
+
+// Dans combien de boîte une couleur est absente ?
+// Dans combien de boîte les Smarties® oranges sont-ils les plus nombreux ?
