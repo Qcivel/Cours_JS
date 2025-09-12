@@ -16,11 +16,16 @@
 
 
 
-const link = document.querySelector("a");
+// const link = document.querySelector("a");
 
-function monClic () {
-    console.log("Bonjour");
-    link.removeEventListener("click", monClic);
-}
+// function monClic () {
+//     console.log("Bonjour");
+//     link.removeEventListener("click", monClic);
+// }
 
-link.addEventListener("click", monClic);
+// link.addEventListener("click", monClic);
+
+
+addEventListener("keydown",function(event){
+    console.log(event.key);
+})
