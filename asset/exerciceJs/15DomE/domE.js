@@ -1,18 +1,18 @@
 
-// const titre = document.querySelector("h1");
-// const lien = document.querySelectorAll("a");
+const titre = document.querySelector("h1");
+const lien = document.querySelectorAll("a");
 
-// lien[0].addEventListener("click", function(){
-//     titre.classList.add("test");
-// });
+lien[0].addEventListener("click", function(){
+    titre.classList.add("maCouleur");
+});
 
-// lien[1].addEventListener("click", function(){
-//     titre.classList.remove("test");
-// });
+lien[1].addEventListener("click", function(){
+    titre.classList.remove("maCouleur");
+});
 
-// lien[2].addEventListener("click", function(){
-//     titre.classList.toggle("test");
-// });
+lien[2].addEventListener("click", function(){
+    titre.classList.toggle("maCouleur");
+});
 
 
 
@@ -26,6 +26,6 @@
 // link.addEventListener("click", monClic);
 
 
-addEventListener("keydown",function(event){
-    console.log(event.key);
-})
+// // addEventListener("keydown",function(event){
+// //     console.log(event.key);
+// // })
