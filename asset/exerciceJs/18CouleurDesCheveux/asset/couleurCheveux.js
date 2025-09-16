@@ -15,7 +15,7 @@ lien[0].addEventListener("click", function(){
     if (count <= 1){
         count = 1;
         lien[0].style.opacity="0.5";
-    }else if (count > 1){
+    } else if (count > 1){
         lien[1].style.opacity="1";
     }
     hair.setAttribute("src", `asset/img/hair-${hairColor}-${count}.png`);
@@ -30,7 +30,7 @@ lien[1].addEventListener("click", function(){
     if (count >= 3 ){
         count = 3;
         lien[1].style.opacity="0.5";
-    }else if (count < 3){
+    } else if (count < 3){
         lien[0].style.opacity="1";
     }
     hair.setAttribute("src", `asset/img/hair-${hairColor}-${count}.png`);
